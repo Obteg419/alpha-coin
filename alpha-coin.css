@@ -1,0 +1,849 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+}
+.section1 {
+  background-color: rgb(0, 0, 0);
+  height: 90vh;
+  display: block;
+}
+.parent {
+  display: flex;
+  gap: 15em;
+  background-color: black;
+  position: fixed;
+  margin-top: -100px;
+  height: 17vh;
+  width: 100vw;
+}
+.section1 img {
+  height: 10vh;
+  width: 30vw;
+  margin-top: 20px;
+}
+.nav {
+  margin-top: 40px;
+  display: flex;
+  gap: 2em;
+  font-size: 1.3em;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* mouse over link */
+.nav a:hover {
+  color: blue;
+  transition: 2s ease-in-out;
+}
+
+.parent2 {
+  display: flex;
+  gap: 8em;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.join {
+  display: block;
+  font-size: 2em;
+  width: 50vw;
+  color: white;
+  margin-top: 50px;
+}
+.join a {
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+}
+.join a:hover {
+  color: black;
+  background-color: white;
+  transition: 1s ease-in-out;
+}
+.parent2 img {
+  height: 80vh;
+  width: 40vw;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+.parent2 img:hover{
+  margin-right: 20px;
+  transition: 2s ease-in-out;
+  cursor: pointer;
+}
+
+.div1 {
+  text-align: center;
+  margin-top: 100px;
+}
+.div1 p {
+  background-color: black;
+  color: white;
+  width: 10vw;
+  margin-left: 600px;
+  font-size: 1.4em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.div2 {
+  display: flex;
+  gap: 9em;
+  margin-left: 150px;
+  margin-top: 60px;
+}
+.subdiv1 h3 {
+  margin-left: 55px;
+  margin-top: -1px;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.subdiv1 p {
+  margin-top: -5px;
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+.subdiv2 h3 {
+  margin-left: 20px;
+  margin-top: -1px;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.subdiv2 p {
+  font-size: 1.2em;
+}
+.subdiv3 h3 {
+  margin-left: 55px;
+  margin-top: -1px;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.subdiv3 p {
+  font-size: 1.2em;
+}
+.parent3 {
+  display: flex;
+  margin-top: 100px;
+  gap: 10em;
+}
+.point {
+  display: flex;
+  gap: 1em;
+}
+.point img {
+  width: 20vw;
+  margin-left: 20px;
+}
+.point:hover{
+  margin-left: 20px;
+  transition: 2s ease-in-out;
+}
+.subpoint {
+  display: block;
+}
+.subpoint h2 {
+  color: red;
+}
+.subpoint p {
+  font-size: 1.4em;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+.subpoint a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+}
+.about {
+  width: 35vw;
+  line-height: 30px;
+}
+.about p {
+  font-size: 1.2em;
+}
+.about h2 {
+  text-transform: uppercase;
+}
+.about a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  font-size: 1.3em;
+}
+.parent4 {
+  display: flex;
+  gap: 8em;
+  margin-top: 200px;
+}
+.alpha {
+  display: block;
+  width: 35vw;
+  margin-left: 70px;
+}
+.alpha h3 {
+  font-size: 1.5em;
+}
+.alpha h2 {
+  margin-left: 50px;
+  color: yellowgreen;
+  font-size: 1.8em;
+}
+.alpha i {
+  font-size: 1.5em;
+}
+.alpha p {
+  font-size: 1.2em;
+}
+.parent4 img {
+  height: 70vh;
+  width: 40vw;
+  margin-top: 100px;
+  margin-left: 70px;
+}
+.parent5 {
+  display: flex;
+  margin-top: 200px;
+  gap: 10em;
+}
+.parent5 img {
+  width: 40vw;
+}
+.aboutus {
+  display: block;
+  width: 35vw;
+}
+.aboutus p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.4em;
+  line-height: 30px;
+}
+.aboutus h1 {
+  font-size: 1.8em;
+  color: blue;
+}
+.aboutus h2 {
+  font-size: 1.7em;
+  color: blue;
+}
+.aboutus a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  font-size: 1.3em;
+}
+.parent6 {
+  display: flex;
+  height: 50vh;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.575);
+  gap: 5em;
+}
+.ic1 {
+  display: flex;
+  border-radius: 50px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 80px;
+  height: 25vh;
+  width: 15vw;
+}
+.ic1 img {
+  width: 5vw;
+  height: 10vh;
+  margin-top: 30px;
+  margin-left: 13px;
+}
+.ic1 h1 {
+  margin-left: 20px;
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+.ic2 {
+  display: flex;
+  border-radius: 50px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 80px;
+  height: 25vh;
+  width: 15vw;
+}
+.ic2 img {
+  width: 5vw;
+  height: 10vh;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.ic2 h1 {
+  margin-left: 20px;
+  font-size: 1.4em;
+  margin-top: 40px;
+}
+.ic3 {
+  display: flex;
+  border-radius: 50px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 80px;
+  height: 25vh;
+  width: 15vw;
+}
+.ic3 img {
+  width: 5vw;
+  height: 10vh;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.ic3 h1 {
+  margin-left: 25px;
+  font-size: 1.4em;
+  margin-top: 40px;
+}
+.ic4 {
+  display: flex;
+  border-radius: 50px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 80px;
+  height: 25vh;
+  width: 15vw;
+}
+.ic4 img {
+  width: 5vw;
+  height: 10vh;
+  margin-top: 30px;
+  margin-left: 13px;
+}
+.ic4 h1 {
+  margin-left: 20px;
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+
+.features {
+  text-align: center;
+}
+.features h1 {
+  text-transform: uppercase;
+  color: gold;
+}
+.features p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.4em;
+}
+
+.parent7 {
+  display: flex;
+  gap: 5em;
+  margin-top: 70px;
+  margin-left: 200px;
+}
+.protection {
+  display: block;
+  width: 22vw;
+}
+.protection p {
+  font-size: 1.2em;
+}
+.stable p {
+  font-size: 1.2em;
+}
+.stable {
+  display: block;
+  width: 22vw;
+}
+.instant p {
+  font-size: 1.2em;
+}
+.instant {
+  display: block;
+  width: 22vw;
+}
+.parent8 {
+  display: flex;
+  gap: 5em;
+  margin-top: 70px;
+  margin-left: 200px;
+}
+
+.connect {
+  display: block;
+  width: 22vw;
+}
+.connect p {
+  font-size: 1.2em;
+}
+.low {
+  display: block;
+  width: 22vw;
+}
+.low p {
+  font-size: 1.2em;
+}
+.latest {
+  display: block;
+  width: 22vw;
+}
+.latest P {
+  font-size: 1.2em;
+}
+.parent9 {
+  display: flex;
+  gap: 10em;
+  margin-top: 250px;
+}
+.parent9 img {
+  height: 60vh;
+  width: 40vw;
+  margin-left: 100px;
+}
+.subp9 {
+  width: 35vw;
+}
+.subp9 h2 {
+  font-size: 2em;
+}
+.subp9 p {
+  font-size: 1.2em;
+  line-height: 33px;
+}
+.book {
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1.5em;
+  color: tomato;
+}
+.books {
+  display: flex;
+  gap: none;
+  margin-left: 50px;
+}
+
+.books img {
+  width: 30vw;
+}
+
+.books .book2 {
+  width: 30vw;
+  height: 75vh;
+  background-color: black;
+  margin-top: 50px;
+}
+.booked {
+  display: flex;
+  gap: 9em;
+  margin-left: 95px;
+  margin-top: -30px;
+  font-size: 1.2em;
+}
+.parent10 {
+  background-color: rgba(0, 0, 0, 0.849);
+  height: 140vh;
+  margin-top: 170px;
+}
+.parent10 .pricing {
+  padding-top: 70px;
+  text-align: center;
+  padding-right: 100px;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  color: white;
+}
+.subdiv10 {
+  display: flex;
+  margin-left: 40px;
+  gap: 3em;
+}
+.five {
+  display: block;
+  background-color: white;
+  height: 80vh;
+  width: 20vw;
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 40px;
+  margin-top: 60px;
+}
+.five p {
+  font-size: 1.4em;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.five a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2em;
+}
+.onek {
+  display: block;
+  background-color: white;
+  height: 80vh;
+  width: 20vw;
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 40px;
+  margin-top: 60px;
+}
+.onek p {
+  font-size: 1.4em;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.onek a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2em;
+}
+.delux {
+  display: block;
+  background-color: white;
+  height: 80vh;
+  width: 20vw;
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 40px;
+  margin-top: 60px;
+}
+.delux p {
+  font-size: 1.4em;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.delux a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2em;
+}
+.executive {
+  display: block;
+  background-color: white;
+  height: 80vh;
+  width: 20vw;
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 40px;
+  margin-top: 60px;
+}
+.executive p {
+  font-size: 1.4em;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.executive a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2em;
+}
+.testimony {
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+.testimony h3 {
+  background-color: black;
+  color: white;
+  width: 20vw;
+  margin-left: 540px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.testimony p {
+  font-size: 2em;
+  font-weight: bold;
+}
+.testimonial {
+  display: flex;
+  margin-left: 45px;
+  margin-top: 70px;
+  gap: 1.5em;
+}
+.test1 {
+  display: block;
+  width: 30vw;
+  line-height: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.884);
+  height: 50vh;
+  border-radius: 40px;
+}
+.test1 i {
+  font-size: 2em;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+.test1 p {
+  width: 25vw;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+.test1 img {
+  border-radius: 60px;
+  margin-left: 120px;
+  margin-top: -10px;
+}
+.test1 .ev {
+  color: black;
+  margin-left: 130px;
+  margin-top: -5px;
+}
+.test1 .ev span {
+  font-size: 0.8em;
+}
+.test2 {
+  display: block;
+  width: 30vw;
+  line-height: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.884);
+  height: 50vh;
+  border-radius: 40px;
+}
+.test2 i {
+  font-size: 2em;
+  margin-left: 160px;
+  margin-top: 10px;
+}
+.test2 p {
+  width: 25vw;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+.test2 img {
+  border-radius: 60px;
+  margin-left: 130px;
+  margin-top: 10px;
+}
+.test2 .el {
+  color: black;
+  margin-left: 150px;
+  margin-top: -5px;
+}
+.test2 .el span {
+  font-size: 0.8em;
+}
+.test3 {
+  display: block;
+  width: 30vw;
+  line-height: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.884);
+  height: 50vh;
+  border-radius: 40px;
+}
+.test3 i {
+  font-size: 2em;
+  margin-left: 160px;
+  margin-top: 10px;
+}
+.test3 p {
+  width: 25vw;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+.test3 img {
+  border-radius: 60px;
+  margin-left: 144px;
+  margin-top: 35px;
+}
+.test3 .jo {
+  color: black;
+  margin-left: 150px;
+  margin-top: -5px;
+}
+.test3 .jo span {
+  font-size: 0.8em;
+}
+.parent11 {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.76);
+  height: 70vh;
+  margin-top: 250px;
+}
+.touch {
+  display: block;
+  width: 35vw;
+  color: white;
+  margin-top: 120px;
+  margin-left: 70px;
+}
+.touch p {
+  line-height: 40px;
+  font-size: 1.5em;
+}
+.touch h2 {
+  font-size: 2em;
+}
+.touch a {
+  text-decoration: none;
+  color: purple;
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  border-radius: 30px;
+  font-size: 1.3em;
+}
+.parent11 img {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.last {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 90px;
+  gap: 1em;
+}
+.mission {
+  display: block;
+  width: 30vw;
+}
+.mission img {
+  width: 20vw;
+}
+.mission p {
+  line-height: 25px;
+}
+.mission a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  border-radius: 30px;
+  font-size: 1em;
+}
+.faq {
+  display: block;
+  font-size: 1.2em;
+  margin-left: 50px;
+}
+.faq a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.685);
+}
+
+.legal {
+  display: block;
+  font-size: 1.2em;
+  margin-left: 60px;
+}
+.legal a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.685);
+}
+
+.conc {
+  display: block;
+  width: 22vw;
+  margin-left: 50px;
+}
+.conc p {
+  color: rgba(0, 0, 0, 0.685);
+}
+.copy {
+  text-align: center;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.678);
+}
+.ic1 img:hover {
+  transform: rotate(350deg);
+}
+.ic1 h1:hover {
+  transform: rotate(350deg);
+}
+.ic2 img:hover {
+  transform: rotate(350deg);
+}
+.ic2 h1:hover {
+  transform: rotate(350deg);
+}
+.ic3 img:hover {
+  transform: rotate(350deg);
+}
+.ic3 h1:hover {
+  transform: rotate(350deg);
+}
+.ic4 img:hover {
+  transform: rotate(350deg);
+}
+.ic4 h1:hover {
+  transform: rotate(350deg);
+}
+.parent6:hover {
+  border-radius: 20px;
+  transition: 1s ease-in-out;
+  width: 98vw;
+  margin-left: 30px;
+}
+.five:hover {
+  background-color: blue;
+  color: white;
+  transition: 3s ease-in-out;
+  cursor: pointer;
+}
+.onek:hover{
+  background-color: blue;
+  color: white;
+  transition: 3s ease-in-out;
+  cursor: pointer;
+}
+.delux:hover{
+  background-color: blue;
+  color: white;
+  transition: 3s ease-in-out;
+  cursor: pointer;
+}
+.executive:hover{
+  background-color: blue;
+  color: white;
+  transition: 3s ease-in-out;
+  cursor: pointer;
+}

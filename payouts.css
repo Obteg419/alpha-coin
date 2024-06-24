@@ -1,0 +1,170 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+.parent {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  gap: 13em;
+  position: fixed;
+  width: 100vw;
+}
+.parent img {
+  height: 10vh;
+  width: 30vw;
+  margin-top: 20px;
+}
+.nav {
+  margin-top: 40px;
+  display: flex;
+  gap: 2em;
+  font-size: 1.3em;
+  margin-left: 20px;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.nav a:hover {
+  color: yellow;
+  transition: 1s ease-in-out;
+}
+.parent2 {
+  background-color: rgb(0, 0, 0);
+  height: 80vh;
+  color: white;
+  margin-top: -30px;
+}
+.parent2 h2 {
+  font-size: 2em;
+  padding-top: 250px;
+  text-align: center;
+}
+.parent2 p {
+  text-align: center;
+  width: 60vw;
+  margin-left: 250px;
+  font-size: 1.5em;
+}
+.load {
+  text-align: center;
+  margin-top: 140px;
+  background-color: white;
+  color:black;
+}
+.load a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border: 1px solid aqua;
+}
+.load a:hover{
+  background-color: black;
+  color: white;
+  transition: 1s ease-in-out;
+}
+.parent11 {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.76);
+  height: 70vh;
+  margin-top: 200px;
+}
+.touch {
+  display: block;
+  width: 35vw;
+  color: white;
+  margin-top: 120px;
+  margin-left: 70px;
+}
+.touch p {
+  line-height: 40px;
+  font-size: 1.5em;
+}
+.touch h2 {
+  font-size: 2em;
+}
+.touch a {
+  text-decoration: none;
+  color: purple;
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  border-radius: 30px;
+  font-size: 1.3em;
+}
+.parent11 img {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.last {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 90px;
+  gap: 1em;
+}
+.mission {
+  display: block;
+  width: 30vw;
+}
+.mission img {
+  width: 20vw;
+}
+.mission p {
+  line-height: 25px;
+}
+.mission a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  border-radius: 30px;
+  font-size: 1em;
+}
+.faq {
+  display: block;
+  font-size: 1.2em;
+  margin-left: 50px;
+}
+.faq a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.685);
+}
+
+.legal {
+  display: block;
+  font-size: 1.2em;
+  margin-left: 60px;
+}
+.legal a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.685);
+}
+
+.conc {
+  display: block;
+  width: 22vw;
+  margin-left: 50px;
+}
+.conc p{
+  color: rgba(0, 0, 0, 0.685);
+}
+.copy{
+  text-align: center;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.678);
+}

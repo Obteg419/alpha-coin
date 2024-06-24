@@ -1,0 +1,21 @@
+.success-message {
+  text-align: center;
+  margin-top: 20vh; /* Adjust the top margin to center the message vertically */
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.success-message h2 {
+  color: #27ae60; /* Green color for the heading */
+}
+
+.success-message p {
+  color: #333; /* Dark gray color for the paragraph text */
+  font-size: 18px;
+}
+.success-message a{
+    text-decoration: none;
+    font-size: 1.2em;
+}

@@ -1,0 +1,420 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+.parent {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  gap: 13em;
+  position: fixed;
+  width: 100vw;
+}
+.parent img {
+  height: 10vh;
+  width: 30vw;
+  margin-top: 20px;
+}
+.nav {
+  margin-top: 40px;
+  display: flex;
+  gap: 2em;
+  font-size: 1.3em;
+  margin-left: 20px;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.nav a:hover {
+  color: yellow;
+  transition: 1s ease-in-out;
+}
+.parent2 {
+  background-color: rgb(0, 0, 0);
+  height: 80vh;
+  color: white;
+  margin-top: -30px;
+}
+.parent2 h2 {
+  font-size: 2em;
+  padding-top: 250px;
+  text-align: center;
+}
+.parent2 p {
+  text-align: center;
+  width: 60vw;
+  margin-left: 250px;
+  font-size: 1.5em;
+}
+.parent3 {
+  display: flex;
+  gap: 1em;
+  margin-top: 70px;
+  margin-right: 30px;
+}
+.sub1 {
+  display: block;
+  line-height: 30px;
+  margin-top: 200px;
+  margin-left: 70px;
+  background-color: white;
+  color: black;
+  height: 60vh;
+  width: 23vw;
+  border-radius: 30px;
+}
+.sub1 i {
+  font-size: 3em;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.sub1 p {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 1.1em;
+}
+.sub1 h3 {
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: 1.3em;
+}
+.sub1:hover {
+  color: white;
+  background-color: black;
+  transition: 1s ease-in-out;
+}
+.subb {
+  display: block;
+}
+.sub2 {
+  line-height: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: white;
+  color: black;
+  height: 60vh;
+  width: 23vw;
+  border-radius: 30px;
+}
+.sub2 i {
+  font-size: 3em;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.sub2 h3 {
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: 1.3em;
+}
+.sub2 p {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 1.1em;
+}
+.sub2:hover {
+  color: white;
+  background-color: black;
+  transition: 1s ease-in-out;
+}
+.sub3 {
+  line-height: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: white;
+  color: black;
+  height: 63vh;
+  width: 23vw;
+  border-radius: 30px;
+}
+.sub3 i {
+  font-size: 3em;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.sub3 h3 {
+  margin-top: 10px;
+  margin-left: 60px;
+  font-size: 1.6em;
+}
+.sub3 p {
+  margin-top: 2px;
+  margin-left: 30px;
+  font-size: 1.1em;
+}
+.sub3:hover {
+  color: white;
+  background-color: black;
+  transition: 1s ease-in-out;
+}
+.subbb {
+  margin-left: 60px;
+}
+.jn {
+  background-color: black;
+  color: white;
+  width: 20vw;
+  text-align: center;
+  padding: 15px;
+}
+.subbb h2 {
+  font-size: 2.3em;
+}
+.subbb h5 {
+  font-size: 1.4em;
+}
+.aff {
+  font-size: 1.1em;
+  width: 33vw;
+  line-height: 32px;
+}
+.subbb p {
+  font-size: 1.1em;
+}
+.refer {
+  text-align: center;
+  margin-top: 170px;
+}
+.refer p {
+  width: 20vw;
+  background-color: black;
+  color: white;
+  margin-left: 500px;
+  padding: 10px;
+  font-size: 1.2em;
+}
+.refer h2 {
+  font-size: 2em;
+}
+.earn {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 70px;
+  gap: 5em;
+}
+.invite {
+  height: 33vh;
+  width: 40vw;
+}
+.invite h2 {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.invite p {
+  margin-left: 50px;
+  font-size: 1.3em;
+  margin-top: -10px;
+  line-height: 30px;
+}
+.invite:hover {
+  border-top-left-radius: 30px;
+  border: 2px solid palevioletred;
+  transition: 1s ease-in-out;
+}
+.make {
+  height: 33vh;
+  width: 40vw;
+}
+.make h2{
+   margin-left: 50px;
+  margin-top: 40px;
+}
+.make p{
+  margin-left: 50px;
+  font-size: 1.3em;
+  margin-top: -10px;
+  line-height: 30px;
+}
+.make:hover{
+  border-top-left-radius: 30px;
+  border: 2px solid palevioletred;
+  transition: 1s ease-in-out;
+}
+.blog{
+ margin-top: 50px;
+  display: flex;
+  gap: 5em;
+  margin-left: 70px;
+}
+.post{
+  height: 33vh;
+  width: 40vw;
+}
+.post h2{
+   margin-left: 50px;
+  margin-top: 40px;
+}
+.post p {
+  margin-left: 50px;
+  font-size: 1.3em;
+  margin-top: -10px;
+  line-height: 30px;
+}
+.post:hover{
+  border-top-left-radius: 30px;
+  border: 2px solid palevioletred;
+  transition: 1s ease-in-out;
+}
+.promote{
+  height: 33vh;
+  width: 40vw;
+}
+.promote h2{
+   margin-left: 50px;
+  margin-top: 40px;
+}
+.promote p{
+  margin-left: 50px;
+  font-size: 1.3em;
+  margin-top: -10px;
+  line-height: 30px;
+}
+.promote:hover{
+  border-top-left-radius: 30px;
+  border: 2px solid palevioletred;
+  transition: 1s ease-in-out;
+}
+.track{
+  margin-top: 50px;
+  display: flex;
+  gap: 5em;
+  margin-left: 70px;
+}
+.time{
+  height: 33vh;
+  width: 40vw;
+}
+.time h2{
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.time p{
+  margin-left: 50px;
+  font-size: 1.3em;
+  margin-top: -10px;
+  line-height: 30px;
+}
+.time:hover{
+  border-top-left-radius: 30px;
+  border: 2px solid palevioletred;
+  transition: 1s ease-in-out;
+}
+.high{
+  height: 33vh;
+  width: 40vw;
+}
+.high h2{
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.high p{
+  margin-left: 50px;
+  font-size: 1.3em;
+  margin-top: -10px;
+  line-height: 30px;
+}
+.high:hover{
+  border-top-left-radius: 30px;
+  border: 2px solid palevioletred;
+  transition: 1s ease-in-out;
+}
+
+.parent11 {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.76);
+  height: 70vh;
+  margin-top: 200px;
+}
+.touch {
+  display: block;
+  width: 35vw;
+  color: white;
+  margin-top: 120px;
+  margin-left: 70px;
+}
+.touch p {
+  line-height: 40px;
+  font-size: 1.5em;
+}
+.touch h2 {
+  font-size: 2em;
+}
+.touch a {
+  text-decoration: none;
+  color: purple;
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  border-radius: 30px;
+  font-size: 1.3em;
+}
+.parent11 img {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.last {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 90px;
+  gap: 1em;
+}
+.mission {
+  display: block;
+  width: 30vw;
+}
+.mission img {
+  width: 20vw;
+}
+.mission p {
+  line-height: 25px;
+}
+.mission a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  border-radius: 30px;
+  font-size: 1em;
+}
+.faq {
+  display: block;
+  font-size: 1.2em;
+  margin-left: 50px;
+}
+.faq a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.685);
+}
+
+.legal {
+  display: block;
+  font-size: 1.2em;
+  margin-left: 60px;
+}
+.legal a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.685);
+}
+
+.conc {
+  display: block;
+  width: 22vw;
+  margin-left: 50px;
+}
+.conc p{
+  color: rgba(0, 0, 0, 0.685);
+}
+.copy{
+  text-align: center;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.678);
+}
